@@ -1,0 +1,42 @@
+*{
+font-family: 'Viga', sans-serif;
+    
+}
+body{
+    background-color: #e3f9e3;
+}
+
+.mt-6{
+    margin-top: 200px;
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.102), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+   
+}
+
+form .display{
+    margin:  20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 35px;
+    box-shadow: none; 
+}
+
+form input.equal{
+    width: 105px;
+}
+form input.operator{
+    color: #33ffd8;
+
+}
